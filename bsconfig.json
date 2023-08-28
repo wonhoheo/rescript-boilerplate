@@ -1,5 +1,9 @@
 {
   "name": "rescript-boilerplate",
+  "jsx": {
+    "version": 4,
+    "mode": "automatic"
+  },
   "sources": [
     {
       "dir": "src",
@@ -12,6 +16,8 @@
       "in-source": true
     }
   ],
-  "suffix": ".bs.js",
-  "bs-dependencies": []
+  "suffix": ".mjs",
+  "bs-dependencies": [
+    "@rescript/react"
+  ]
 }

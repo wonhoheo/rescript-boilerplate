@@ -4,8 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev:watch": "mkdir -p ./src/__generated__ && concurrently -n rescript,next 'pnpm:res:watch' 'pnpm:dev'",
+    "dev": "next dev",
+    "build": "pnpm res:build && next build",
+    "start": "next start",
+    "lint": "next lint",
+    "res:clean": "rescript clean -with-deps",
     "res:build": "rescript",
-    "res:dev": "rescript build -w"
+    "res:watch": "rescript build -w"
   },
   "keywords": [],
   "author": "",
