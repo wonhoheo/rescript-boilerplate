@@ -3,12 +3,12 @@
 ## 개발 서버 실행하기
 
 ```sh
-yarn dev:watch
+pnpm dev:watch
 ```
 
 ## 빌드하기
 ```sh
-yarn build
+pnpm build
 ```
 
 
