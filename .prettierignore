@@ -7,3 +7,4 @@ public
 graphql_schema.json
 lib/bs
 src/libs/vendor
+pnpm-lock.yaml

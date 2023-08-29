@@ -17,7 +17,5 @@
     }
   ],
   "suffix": ".mjs",
-  "bs-dependencies": [
-    "@rescript/react"
-  ]
+  "bs-dependencies": ["@rescript/react"]
 }

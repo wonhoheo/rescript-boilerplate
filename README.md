@@ -7,12 +7,13 @@ pnpm dev:watch
 ```
 
 ## 빌드하기
+
 ```sh
 pnpm build
 ```
 
-
 ## 적용 라이브러리
+
 - next: v13.4.19
 - react: v18.2.0
 - tailwindcss: v3.3.3
